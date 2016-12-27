@@ -1,5 +1,3 @@
-// Code goes here
-
 (function() {
 
   window.onload = function() {
