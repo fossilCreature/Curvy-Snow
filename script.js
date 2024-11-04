@@ -16,9 +16,10 @@
         y: y || Math.random() * h,
         d: 1 + Math.random() * 19,
         r: 4,
+        speed: 0.15,
         a: Math.floor(Math.random() * 360),
         update: function() {
-          this.y += this.d * 0.07;
+          this.y += this.d * this.speed;
           this.x += Math.cos(this.a) * (this.d / 30);
 
           ctx.fillStyle = 'rgba(255,255,255,' + this.d / 20 + ')';
