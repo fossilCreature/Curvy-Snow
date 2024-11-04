@@ -1,6 +1,6 @@
 # Curvy Snow
 
-Simple snow for your **HTML5** canvas.
+Simple Javascript, HTML5/canvas snow generation. 
 
-[Example](http://plnkr.co/mLQbXG)
+[Demo](https://codepen.io/D-Davidson/pen/poMZmmQ)
 
